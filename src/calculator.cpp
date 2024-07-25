@@ -2,11 +2,11 @@
 #include <stdexcept> // 추가된 부분
 
 int Calculator::add(int a, int b) {
-    return a + b;
+    return a - b;
 }
 
 int Calculator::subtract(int a, int b) {
-    return a - b;
+    return b - a;
 }
 
 int Calculator::multiply(int a, int b) {
